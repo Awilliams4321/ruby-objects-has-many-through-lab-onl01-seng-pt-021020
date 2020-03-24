@@ -3,7 +3,7 @@ class Patient
   
   @@all = []
   
-  attr_accessor :name
+  attr_accessor :name, :appointment, :
   
   def initialize(name)
     @name = name 
